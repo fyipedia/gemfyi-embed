@@ -42,7 +42,7 @@ That's it. The widget fetches data from the GemFYI API and renders with full sty
 | `data-gemfyi` | entity, compare, glossary, guide, search, [tools] | required | Widget type |
 | `data-slug` | e.g. "gems" | — | Entity slug from the GemFYI database |
 | `data-theme` | light, dark, sepia, auto | light | Visual theme (`auto` follows OS preference) |
-| `data-style` | modern, technical | modern | Widget design style |
+| `data-styleVariant` | modern, technical | modern | Widget design style |
 | `data-size` | default, compact, large | default | Widget size |
 | `data-placeholder` | any string | "Search Gems..." | Search box placeholder |
 
@@ -66,10 +66,10 @@ That's it. The widget fetches data from the GemFYI API and renders with full sty
 
 ```html
 <!-- Modern (default) — clean lines, rounded corners, accent gradients -->
-<div data-gemfyi="entity" data-slug="gems" data-style="modern"></div>
+<div data-gemfyi="entity" data-slug="gems" data-styleVariant="modern"></div>
 
 <!-- Technical — monospace type, grid overlays, laboratory aesthetic -->
-<div data-gemfyi="entity" data-slug="gems" data-style="technical"></div>
+<div data-gemfyi="entity" data-slug="gems" data-styleVariant="technical"></div>
 ```
 
 ## Web Components (Custom Elements)
