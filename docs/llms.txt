@@ -1,21 +1,51 @@
 # GemFYI Embed Widget
 
-> Embeddable GemFYI widgets for any website. Zero dependencies, Shadow DOM isolation, 4 themes (light/dark/sepia/auto).
+> Gemstones, mineralogy, grading. Embeddable widgets for any website. Zero dependencies, Shadow DOM isolation.
 
 ## Quick Start
 
-Add to any HTML page:
-- Script: <script src="https://cdn.jsdelivr.net/npm/gemfyi-embed@1/dist/embed.min.js"></script>
+```html
+<script src="https://cdn.jsdelivr.net/npm/gemfyi-embed@1/dist/embed.min.js"></script>
+<div data-gemfyi="mohs-scale" data-slug="example"></div>
+```
+
+## Available Widget Types (7)
+
+- entity: `data-gemfyi="entity"`
+- glossary: `data-gemfyi="glossary"`
+- guide: `data-gemfyi="guide"`
+- compare: `data-gemfyi="compare"`
+- search: `data-gemfyi="search"`
+- mohs-scale (interactive): `data-gemfyi="mohs-scale"`
+- optical-card (interactive): `data-gemfyi="optical-card"`
+
+## Customization
+
+- **Themes**: light, dark, sepia, auto (follows system preference)
+- **Sizes**: compact (280px), default (420px), large (720px)
+- **Styles**: modern, classic
+
+```html
+<div data-gemfyi="mohs-scale" data-slug="example"
+     data-theme="auto" data-size="compact" data-style-variant="modern"></div>
+```
+
+## Integration Methods
+
+1. **Script tag** (recommended): `<script src="https://cdn.jsdelivr.net/npm/gemfyi-embed@1/dist/embed.min.js"></script>`
+2. **iframe**: `https://gemfyi.com/iframe/entity/{slug}/`
+3. **oEmbed**: `https://gemfyi.com/oembed?url={page_url}&format=json`
+4. **Badge**: `https://gemfyi.com/badge/site.svg`
 
 ## Links
 
 - Main site: https://gemfyi.com
 - Widget docs: https://widget.gemfyi.com
-- npm: https://www.npmjs.com/package/gemfyi-embed
+- API documentation: https://gemfyi.com/developers/
+- npm package: https://www.npmjs.com/package/gemfyi-embed
 - GitHub: https://github.com/fyipedia/gemfyi-embed
-- API: https://gemfyi.com/developers/
 
-## Science FYI Widget Family
+## Science FYI Widget Network
 
 - [ChemFYI Widget](https://widget.chemfyi.com)
 - [AlloyFYI Widget](https://widget.alloyfyi.com)
