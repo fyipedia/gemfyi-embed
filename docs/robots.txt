@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# GemFYI Embed Widget
+# Main site: https://gemfyi.com
+# Widget docs: https://widget.gemfyi.com
+# npm: https://www.npmjs.com/package/gemfyi-embed
