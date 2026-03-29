@@ -1,0 +1,27 @@
+# GemFYI Embed Widget
+
+> Embeddable GemFYI widgets for any website. Zero dependencies, Shadow DOM isolation, 4 themes (light/dark/sepia/auto).
+
+## Quick Start
+
+Add to any HTML page:
+- Script: <script src="https://cdn.jsdelivr.net/npm/gemfyi-embed@1/dist/embed.min.js"></script>
+
+## Links
+
+- Main site: https://gemfyi.com
+- Widget docs: https://widget.gemfyi.com
+- npm: https://www.npmjs.com/package/gemfyi-embed
+- GitHub: https://github.com/fyipedia/gemfyi-embed
+- API: https://gemfyi.com/developers/
+
+## Science FYI Widget Family
+
+- [ChemFYI Widget](https://widget.chemfyi.com)
+- [AlloyFYI Widget](https://widget.alloyfyi.com)
+- [StarFYI Widget](https://widget.starfyi.com)
+- [MineralFYI Widget](https://widget.mineralfyi.com)
+
+## Part of FYIPedia
+
+Open-source developer tools ecosystem — https://fyipedia.com
